@@ -38,13 +38,6 @@ export const Navigation: React.FC<NavigationProps> = ({ scrolled }) => {
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-700 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#how-it-works"
-            className="font-medium hover:text-purple-700 transition-colors relative group"
-          >
-            How It Works
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-700 transition-all duration-300 group-hover:w-full"></span>
-          </a>
-          <a
             href="#security"
             className="font-medium hover:text-purple-700 transition-colors relative group"
           >
@@ -92,13 +85,6 @@ export const Navigation: React.FC<NavigationProps> = ({ scrolled }) => {
             onClick={() => setMobileMenuOpen(false)}
           >
             Features
-          </a>
-          <a
-            href="#how-it-works"
-            className="text-2xl font-medium hover:text-purple-700 transition-colors"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            How It Works
           </a>
           <a
             href="#security"
